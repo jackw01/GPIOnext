@@ -3,7 +3,7 @@ from evdev import AbsInfo, ecodes as e
 import RPi.GPIO as GPIO
 
 #Pi Zero, 1, 2, OR 3 - (Versions A+/B+)
-AVAILABLE_PINS = (2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19,20,21,22,23,24,25,26,27)
+AVAILABLE_PINS = (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27)
 
 #Pi 1 (Versions A/B)
 if GPIO.RPI_INFO['P1_REVISION'] < 3:
